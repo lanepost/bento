@@ -30,7 +30,9 @@ const greeLines = [
 	"Can you love your everything too, for me?"
 	];
 
-const greeRand = Math.floor(Math.random() * greeLines.length);
-console.log(random, greeLines[random]);
+/* const greeRand = Math.floor(Math.random() * greeLines.length);
+console.log(random, greeLines[random]); */
+
+var greeRand = greeLines[~~(Math.random() * greeLines.length)];
 
 document.getElementById('greetings').innerText = greeRand;
