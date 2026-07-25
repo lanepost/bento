@@ -172,6 +172,7 @@ body {
   font-size: var(--fg-date);
   font-weight: bold;
   color: var(--fg);
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.35); /*TESTING*/
 }
 
 #day {
@@ -183,6 +184,7 @@ body {
   color: var(--fg);
   justify-content: center;
   text-align: center;
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.35); /*TESTING*/
 }
 
 .weatherIcon img {
