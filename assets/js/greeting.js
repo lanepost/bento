@@ -7,6 +7,7 @@ const today = new Date();
 const hour = today.getHours();
 const name = CONFIG.name;
 
+/* i just wanna see if i can make random greetings every time i reload the page
 const gree1 = `${CONFIG.greetingNight}\xa0`;
 const gree2 = `${CONFIG.greetingMorning}\xa0`;
 const gree3 = `${CONFIG.greetingAfternoon}\xa0`;
@@ -21,3 +22,14 @@ if (hour >= 23 || hour < 6) {
 } else {
 	document.getElementById('greetings').innerText = gree4 + name;
 }
+*/
+
+const greeLines = [
+	"No alarms and no surprises.",
+	"Faces of you, is that what you call a muse?",
+	"Can you love your everything too, for me?"
+	];
+
+const greeRand = Math.floor(Math.random() * greeLines.length);
+
+document.getElementById('greetings').innerText = greeRand;
