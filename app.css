@@ -179,6 +179,7 @@ body {
 #greetings {
   font-size: var(--fg-secondary);
   color: var(--fg);
+  justify-content: center;
 }
 
 .weatherIcon img {
