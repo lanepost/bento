@@ -24,6 +24,7 @@ function displayClock() {
 	document.getElementById('hour').innerText = hh;
 	document.getElementById('separator').innerHTML = ' : ';
 	document.getElementById('minutes').innerText = min + ampm;
+	document.getElementById('separator2').innerHTML = ' : '; // so theres probably a better way to do this but if it works it works - lane
 	document.getElementById('seconds').innerHTML = ss;
 
 	document.getElementById('month').innerText = mm;
