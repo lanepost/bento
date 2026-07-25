@@ -25,12 +25,10 @@ if (hour >= 23 || hour < 6) {
 */
 
 const greeLines = [
-	"No alarms and no surprises.",
+/*	"No alarms and no surprises.",
 	"Faces of you, is that what you call a muse?",
-	"Can you love your everything too, for me?"
-	"
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper accumsan lacus, sed volutpat sem sollicitudin eget. Suspendisse et scelerisque mi. Duis egestas odio et ullamcorper aliquet. Aliquam vitae nisi eu ipsum lobortis ullamcorper at vitae erat. Duis ultricies lorem at nisl tempus, et convallis odio euismod. Morbi sapien mauris, cursus eu enim et, maximus finibus risus. Donec nec orci arcu. Aenean condimentum enim a tristique ultrices. Vestibulum non rutrum tellus. "
+	"Can you love your everything too, for me?"*/
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper accumsan lacus, sed volutpat sem sollicitudin eget. Suspendisse et scelerisque mi. Duis egestas odio et ullamcorper aliquet. Aliquam vitae nisi eu ipsum lobortis ullamcorper at vitae erat. Duis ultricies lorem at nisl tempus, et convallis odio euismod. Morbi sapien mauris, cursus eu enim et, maximus finibus risus. Donec nec orci arcu. Aenean condimentum enim a tristique ultrices. Vestibulum non rutrum tellus."
 	];
 
 /* const greeRand = Math.floor(Math.random() * greeLines.length);
