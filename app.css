@@ -334,6 +334,14 @@ body {
   color: var(--sfg);
 }
 
+#hour, #separator, #minutes, #seconds, #separator2,
+#month, #day,
+#greetings, 
+.weatherIcon img, .weatherDescription p {
+  text-shadow: 0 5px 7px rgba(0, 0, 0, 0.35); /*TESTING*/
+  filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.35)); /*TESTING*/
+}
+
 /* M E D I A - Q U E R I E S */
 
 @media only screen and (max-width: 68.75em) {
