@@ -31,5 +31,6 @@ const greeLines = [
 	];
 
 const greeRand = Math.floor(Math.random() * greeLines.length);
+console.log(random, greeLines[random]);
 
 document.getElementById('greetings').innerText = greeRand;
