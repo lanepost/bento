@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'd3aa5f682c98f978df907fc76ec64f3a', // Write here your API Key
+	weatherKey: '0cce54fb387a9d05ed363a3b7adf79b1', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -65,27 +65,27 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'AO3',
+			icon: 'book-text',
+			link: 'https://archiveofourown.org/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Amazon',
+			icon: 'shopping-cart',
+			link: 'http://www.amazon.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Outlook',
+			icon: 'mail',
+			link: 'https://outlook.office.com/mail/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'FMHY',
+			icon: 'mouse-pointer-2',
+			link: 'https://fmhy.net/',
 		},
 	],
 
