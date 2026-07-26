@@ -37,11 +37,11 @@ const greeLines = [
 	"And you don't seem to understand...",
 	"You are an idiot!",
 	"I'm alive, I still remember the people I love.",
-	"But pride's gonna be the death of you, and you and me,"
+	"But pride's gonna be the death of you, and you and me",
 	"If truly free, be stopped never, through all that's happening!",
 	"Who's gonna rock the place?",
 	"Open your heart, it's gonna be alright!",
-	"Make believes reborn!"
+	"Make believes reborn!",
 	"Wish I may, wish I might, be someone else tonight.",
 	"I'm the chosen one.",
 	"'Cause every night, I will save your life.",
@@ -50,7 +50,7 @@ const greeLines = [
 	"You'll find your flame!",
 	"In his world of worlds, every step meets the rest!",
 	"I am all of me.",
-	"And I live to rule by the sword,"
+	"And I live to rule by the sword,",
 	"Live and learn!",
 	"Hold on to what if?",
 	"We're only at the beginning of this one way dream.",
@@ -66,6 +66,6 @@ const greeLines = [
 	"I am my biggest fan." ];
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
-console.log(greeRand);
+console.log(greeRand, greeLines[greeRand]);
 
 document.getElementById('greetings').innerText = greeRand; 
