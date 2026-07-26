@@ -66,6 +66,8 @@ const greeLines = [
 	"I am my biggest fan." ];
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
-console.log(greeRand, greeLines[greeRand]);
+
+// console.log(greeRand, greeLines[greeRand]);
+// testing purposes ^^^
 
 document.getElementById('greetings').innerText = greeRand; 
