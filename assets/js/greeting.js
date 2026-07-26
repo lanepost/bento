@@ -67,5 +67,6 @@ const greeLines = [
 	];
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
+console.log(greeRand);
 
 document.getElementById('greetings').innerText = greeRand; 
