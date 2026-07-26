@@ -63,8 +63,7 @@ const greeLines = [
 	"So break through it all, and don't look down!",
 	"Catch me if you can.",
 	"I am your biggest fan.",
-	"I am my biggest fan."
-	];
+	"I am my biggest fan." ];
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
 console.log(greeRand);
