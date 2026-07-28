@@ -63,7 +63,21 @@ const greeLines = [
 	"So break through it all, and don't look down!",
 	"Catch me if you can.",
 	"I am your biggest fan.",
-	"I am my biggest fan." ];
+	"I am my biggest fan.",
+	"I won't let this build up inside of me.",
+	"Do you have to let it linger?",
+	"I drag you down, I use you up.",
+	"I am falling, I am fading,",
+	"And you don't seem to understand.",
+	"I'd give up forever to touch you.",
+	"I just want you to know who I am.",
+	"Take my hand, we'll make it, I swear.",
+	"I know the pieces fit.",
+	"The world undergoes photosynthesia.",
+	"Step through the gate into Utopia.",
+	"I just can't stop.",
+	"Reincarnated!"
+ ]; // god. i should probably figure out how to move this somewhere else.
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
 
