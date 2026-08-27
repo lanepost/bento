@@ -114,7 +114,11 @@ const greeLines = [
 	"She's a maneater!",
 	"Born to be down.",
 	"Aerials, so up high.",
-	"Somewhere between the sacred silence and sleep..."
+	"Somewhere between the sacred silence and sleep...",
+	"Endless fractals-",
+	"What's the point in resisting?",
+	"You were the ones who killed me.",
+	"You are the only one I won’t forgive."
  ]; // god. i should probably figure out how to move this somewhere else.
 
 var greeRand = greeLines[Math.floor(Math.random() * greeLines.length)];
